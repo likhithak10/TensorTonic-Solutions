@@ -10,6 +10,8 @@ def softmax(x):
     # converts the values between 0 and 1 -> adding the values of all the classes in the output of the softmax will sum to 1
     # for 2d array, treat each row as a seperate array od data (set axis=1)
 
+    # didn't read the whole description beforr seeing the numerical overview problrm and how to deal with it but stack overflow helped. going to work on numpy operations more and refactor the code to be optimal
+
     x = np.array(x)
 
     if len(x.shape) > 1:
